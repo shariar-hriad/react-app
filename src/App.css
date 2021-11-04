@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Zen+Old+Mincho:wght@900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6:first-child {
+  margin-top: 0;
+}
